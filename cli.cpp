@@ -96,7 +96,7 @@ int main(){
     std::cin >> commandInput;
 
     while (commandInput != "nvidia-smi"){
-        std::cout << " Command not found. Enter a command: ";
+        std::cout << "'" << commandInput << "' is not a recognized command. Enter a command: ";
         std::cin >> commandInput;
     }
 
