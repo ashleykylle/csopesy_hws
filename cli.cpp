@@ -96,7 +96,7 @@ int main(){
     std::cin >> commandInput;
 
     while (commandInput != "nvidia-smi"){
-        std::cout << "'" << commandInput << "' is not a recognized command. Enter a command: ";
+        std::cout << "'" << commandInput << "' is not a recognized command. \nEnter a command: ";
         std::cin >> commandInput;
     }
 
